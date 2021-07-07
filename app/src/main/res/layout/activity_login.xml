@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/tool_bar_store"
+            android:text="@string/tool_bar_login"
             android:textSize="18sp"
             android:textColor="@color/color_02"
             android:layout_alignBottom="@id/toolbar"
@@ -27,7 +27,13 @@
             android:layout_alignTop="@id/toolbar"
             android:gravity="center|center_horizontal"/>
 
-        <include layout="@layout/content_store" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_08"
+            android:layout_alignBottom="@id/toolbar"/>
+
+        <include layout="@layout/content_login" />
 
     </RelativeLayout>
 </LinearLayout>
